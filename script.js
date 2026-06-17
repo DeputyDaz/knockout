@@ -153,8 +153,8 @@ function renderMatch(item) {
 
 function renderTeam(team) {
   return `
-    <div class="team">
-      <span class="flag">${team.flag || ""}</span>
+    <div class="team ${team.winner ? "winner" : ""}">
+      <span class="flag">${renderFlag(team.flag)}</span>
       <span class="team-text">
         <span class="team-name">${team.name}</span>
         <span class="team-owner">${team.owner}</span>
@@ -162,6 +162,18 @@ function renderTeam(team) {
       <span class="score">${team.score || "-"}</span>
     </div>
   `;
+}
+
+function renderFlag(flag) {
+  if (!flag) {
+    return "";
+  }
+
+  if (flag.startsWith("http")) {
+    return `<img src="${flag}" alt="">`;
+  }
+
+  return flag;
 }
 
 renderBracket();
