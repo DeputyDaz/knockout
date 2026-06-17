@@ -26,17 +26,4 @@ Use an emoji flag instead of text if you prefer:
 
 For later rounds, replace `Winner Match 74`, `Winner Match 101`, and similar placeholders as teams progress.
 
-## Publishing On GitHub Pages
 
-1. Create a GitHub repository.
-2. Upload these files to the repository root.
-3. In GitHub, go to `Settings` > `Pages`.
-4. Set the source to `Deploy from a branch`.
-5. Select the branch, usually `main`, and the root folder.
-6. Save.
-
-GitHub will publish the site at a URL like:
-
-```text
-https://your-username.github.io/your-repository/
-```
