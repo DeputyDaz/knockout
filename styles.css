@@ -275,7 +275,7 @@ h1 {
   display: grid;
   align-content: center;
   min-height: 760px;
-  gap: 18px;
+  gap: 14px;
 }
 
 .champion {
