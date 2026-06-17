@@ -7,7 +7,7 @@ const bracketColumns = [
     title: "Round of 32",
     subtitle: "Left half",
     matches: [
-      match(74, "Round of 32", "29 Jun, 12:00 AM UK", "Los Angeles", { flag: "https://flagcdn.com/w40/gb-eng.png", name: "Winner Group E", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group A/B/C/D/F", owner: placeholderOwner, score: "", winner: true }),
+      match(74, "Round of 32", "29 Jun, 12:00 AM UK", "Los Angeles", { flag: "https://flagcdn.com/w40/gb-eng.png", name: "Winner Group E", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group A/B/C/D/F", owner: placeholderOwner, score: ""}),
       match(77, "Round of 32", "29 Jun, 5:00 PM UK", "New York/New Jersey", { flag: "", name: "Winner Group I", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group C/D/F/G/H", owner: placeholderOwner, score: "" }),
       match(73, "Round of 32", "28 Jun, 8:00 PM UK", "Mexico City", { flag: "", name: "Runner-up Group A", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group B", owner: placeholderOwner, score: "" }),
       match(75, "Round of 32", "29 Jun, 8:00 PM UK", "Boston", { flag: "", name: "Winner Group F", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group C", owner: placeholderOwner, score: "" }),
