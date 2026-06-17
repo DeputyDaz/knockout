@@ -95,7 +95,7 @@ h1 {
 .round {
   display: grid;
   align-content: space-around;
-  min-height: 1120px;
+  min-height: 760px;
   gap: 18px;
 }
 
@@ -274,7 +274,7 @@ h1 {
 .center {
   display: grid;
   align-content: center;
-  min-height: 1120px;
+  min-height: 760px;
   gap: 18px;
 }
 
