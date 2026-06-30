@@ -96,7 +96,7 @@ h1 {
   display: grid;
   align-content: start;
   min-height: 820px;
-  gap: 12px;
+  gap: 24px;
 }
 
 #left-r32 {
@@ -104,31 +104,31 @@ h1 {
 }
 
 #left-r16 {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 #left-qf {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 #left-sf {
-  padding-top: 160px;
+  padding-top: 180px;
 }
 
 #final {
-  padding-top: 220px;
+  padding-top: 240px;
 }
 
 #right-sf {
-  padding-top: 160px;
+  padding-top: 180px;
 }
 
 #right-qf {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 #right-r16 {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 #right-r32 {
