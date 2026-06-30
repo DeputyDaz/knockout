@@ -10,11 +10,11 @@ const bracketColumns = [
       match(74, "Round of 32", "29 Jun, 12:00 AM UK", "Los Angeles", { flag: "https://flagcdn.com/w40/de.png", name: "Germany", owner: "Jackie M", score: "1(2)" }, { flag: "https://flagcdn.com/w40/py.png", name: "Paraguay", owner: "Katrina T", score: "1(4)",  winner: true }),
       match(77, "Round of 32", "29 Jun, 5:00 PM UK", "New York/New Jersey", { flag: "https://flagcdn.com/w40/fr.png", name: "France", owner: "Conor M", score: "" }, { flag: "https://flagcdn.com/w40/se.png", name: "Sweden", owner: "Colette B", score: "" }),
       match(73, "Round of 32", "28 Jun, 8:00 PM UK", "Mexico City", { flag: "https://flagcdn.com/w40/za.png", name: "South Africa", owner: "Teresa Mc", score: "0" }, { flag: "https://flagcdn.com/w40/ca.png", name: "Canada", owner: "Colette B", score: "1", winner: true }),
-      match(75, "Round of 32", "29 Jun, 8:00 PM UK", "Boston", { flag: "", name: "Winner Group F", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group C", owner: placeholderOwner, score: "" }),
-      match(83, "Round of 32", "3 Jul, 1:00 AM UK", "Mexico City", { flag: "", name: "Runner-up Group K", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group L", owner: placeholderOwner, score: "" }),
-      match(84, "Round of 32", "3 Jul, 2:00 AM UK", "New York/New Jersey", { flag: "", name: "Winner Group H", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group J", owner: placeholderOwner, score: "" }),
-      match(81, "Round of 32", "2 Jul, 12:00 AM UK", "Seattle", { flag: "", name: "Winner Group D", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group B/E/F/I/J", owner: placeholderOwner, score: "" }),
-      match(82, "Round of 32", "2 Jul, 2:00 AM UK", "Santa Clara", { flag: "", name: "Winner Group G", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group A/E/H/I/J", owner: placeholderOwner, score: "" })
+      match(75, "Round of 32", "29 Jun, 8:00 PM UK", "Boston", { flag: "https://flagcdn.com/w40/nl.png", name: "Netherlands", owner: "Nicola Mc", score: "1(2)" }, { flag: "https://flagcdn.com/w40/ma.png", name: "Morocco", owner: "Terry B", score: "1(3)", winner: true }),
+      match(83, "Round of 32", "3 Jul, 1:00 AM UK", "Mexico City", { flag: "https://flagcdn.com/w40/pt.png", name: "Portugal", owner: "Alison G", score: "" }, { flag: "https://flagcdn.com/w40/cr.png", name: "Croatia", owner: "Emma M", score: "" }),
+      match(84, "Round of 32", "3 Jul, 2:00 AM UK", "New York/New Jersey", { flag: "https://flagcdn.com/w40/es.png", name: "Spain", owner: "Carl R", score: "" }, { flag: "https://flagcdn.com/w40/at.png", name: "Austria", owner: "Claire Gilm", score: "" }),
+      match(81, "Round of 32", "2 Jul, 12:00 AM UK", "Seattle", { flag: "https://flagcdn.com/w40/us.png", name: "USA", owner: "Beirdre C", score: "" }, { flag: "https://flagcdn.com/w40/ba.png", name: "Bosnia", owner: "Darren H", score: "" }),
+      match(82, "Round of 32", "2 Jul, 2:00 AM UK", "Santa Clara", { flag: "https://flagcdn.com/w40/be.png", name: "Belgium", owner: "Will F", score: "" }, { flag: "https://flagcdn.com/w40/sn.png", name: "Senegal", owner: "Billy J", score: "" })
     ]
   },
   {
@@ -56,7 +56,7 @@ const bracketColumns = [
     matches: [
       match(104, "Final", "19 Jul, 8:00 PM UK", "New York/New Jersey", { flag: "", name: "Winner Match 101", owner: placeholderOwner, score: ""}, { flag: "", name: "Winner Match 102", owner: placeholderOwner, score: "" }, true)
     ],
-    champion: "World Cup Winner"
+    champion: ". . ."
   },
   {
     id: "right-sf",
@@ -95,14 +95,14 @@ const bracketColumns = [
     title: "Round of 32",
     subtitle: "Right half",
     matches: [
-      match(76, "Round of 32", "30 Jun, 1:00 AM UK", "Monterrey", { flag: "", name: "Winner Group C", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group F", owner: placeholderOwner, score: "" }),
-      match(78, "Round of 32", "30 Jun, 12:00 AM UK", "Dallas", { flag: "", name: "Runner-up Group E", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group I", owner: placeholderOwner, score: "" }),
-      match(79, "Round of 32", "30 Jun, 8:00 PM UK", "Atlanta", { flag: "", name: "Winner Group A", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group C/E/F/H/I", owner: placeholderOwner, score: "" }),
-      match(80, "Round of 32", "1 Jul, 2:00 AM UK", "San Francisco Bay Area", { flag: "", name: "Winner Group L", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group E/H/I/J/K", owner: placeholderOwner, score: "" }),
-      match(86, "Round of 32", "4 Jul, 12:00 AM UK", "Dallas", { flag: "", name: "Winner Group J", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group H", owner: placeholderOwner, score: "" }),
-      match(88, "Round of 32", "4 Jul, 5:00 AM UK", "Seattle", { flag: "", name: "Runner-up Group D", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group G", owner: placeholderOwner, score: "" }),
-      match(85, "Round of 32", "3 Jul, 8:00 PM UK", "Miami", { flag: "", name: "Winner Group B", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group E/F/G/I/J", owner: placeholderOwner, score: "" }),
-      match(87, "Round of 32", "3 Jul, 11:00 PM UK", "Philadelphia", { flag: "", name: "Winner Group K", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group D/E/I/J/L", owner: placeholderOwner, score: "" })
+      match(76, "Round of 32", "30 Jun, 1:00 AM UK", "Monterrey", { flag: "https://flagcdn.com/w40/br.png", name: "Brazil", owner: "Darren H, score: "2", winner: true }, { flag: "https://flagcdn.com/w40/jp.png", name: "Japan", owner: "Charlene F", score: "1" }),
+      match(78, "Round of 32", "30 Jun, 12:00 AM UK", "Dallas", { flag: "https://flagcdn.com/w40/ci.png", name: "Ivory Coast", owner: "Nicola S, score: "" }, { flag: "https://flagcdn.com/w40/no.png", name: "Norway", owner: "Mark B", score: "" }),
+      match(79, "Round of 32", "30 Jun, 8:00 PM UK", "Atlanta", { flag: "https://flagcdn.com/w40/mx.png", name: "Mexico", owner: "Carl R", score: "" }, { flag: "https://flagcdn.com/w40/ec.png", name: "Ecuador", owner: "Jim W", score: "" }),
+      match(80, "Round of 32", "1 Jul, 2:00 AM UK", "San Francisco Bay Area", { flag: "https://flagcdn.com/w40/gb-eng.png", name: "England", owner: "Catherine S", score: "" }, { flag: "https://flagcdn.com/w40/cd.png", name: "DR Congo", owner: "Steven L", score: "" }),
+      match(86, "Round of 32", "4 Jul, 12:00 AM UK", "Dallas", { flag: "https://flagcdn.com/w40/ar.png", name: "Argentina", owner: "Paul F", score: "" }, { flag: "https://flagcdn.com/w40/cv.png", name: "Cabo Verde", owner: "Chris B", score: "" }),
+      match(88, "Round of 32", "4 Jul, 5:00 AM UK", "Seattle", { flag: "https://flagcdn.com/w40/au.png", name: "Australia", owner: "Claire Gilm", score: "" }, { flag: "https://flagcdn.com/w40/eg.png", name: "Egypt", owner: "David R", score: "" }),
+      match(85, "Round of 32", "3 Jul, 8:00 PM UK", "Miami", { flag: "https://flagcdn.com/w40/ch.png", name: "Switzerland", owner: "Neill V", score: "" }, { flag: "https://flagcdn.com/w40/dz.png", name: "Algeria", owner: "Alan T", score: "" }),
+      match(87, "Round of 32", "3 Jul, 11:00 PM UK", "Philadelphia", { flag: "https://flagcdn.com/w40/co.png", name: "Colombia", owner: "Chris E", score: "" }, { flag: "https://flagcdn.com/w40/gh.png", name: "Ghana", owner: "Carl R", score: "" })
     ]
   }
 ];
