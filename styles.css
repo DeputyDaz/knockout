@@ -24,7 +24,7 @@ body {
   background:
     linear-gradient(120deg, rgba(0, 134, 111, 0.12), transparent 34%),
     linear-gradient(240deg, rgba(215, 161, 58, 0.18), transparent 38%),
-    #c8f2b8;
+    #eef3f8;
 }
 
 .site-header {
@@ -34,7 +34,7 @@ body {
   gap: 24px;
   width: min(1680px, calc(100% - 48px));
   margin: 0 auto;
-  padding: 28px 0 18px;
+  padding: 18px 0 8px;
 }
 
 .eyebrow {
@@ -48,7 +48,7 @@ body {
 
 h1 {
   margin: 0;
-  font-size: clamp(30px, 4vw, 56px);
+  font-size: clamp(28px, 3.4vw, 48px);
   line-height: 0.95;
   letter-spacing: 0;
 }
@@ -78,25 +78,25 @@ h1 {
 
 .bracket-shell {
   width: min(1680px, calc(100% - 48px));
-  margin: 0 auto 22px;
+  margin: 0 auto 14px;
   overflow-x: auto;
-  padding: 18px 10px 24px;
+  padding: 10px 10px 18px;
 }
 
 .bracket-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 236px 218px 210px 204px 250px 204px 210px 218px 236px;
-  gap: 18px;
-  min-width: 2084px;
+  grid-template-columns: 218px 204px 196px 190px 230px 190px 196px 204px 218px;
+  gap: 14px;
+  min-width: 1922px;
   align-items: stretch;
 }
 
 .round {
   display: grid;
   align-content: space-around;
-  min-height: 760px;
-  gap: 18px;
+  min-height: 820px;
+  gap: 12px;
 }
 
 .round-title {
@@ -107,8 +107,8 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  min-height: 38px;
-  padding: 8px 10px;
+  min-height: 32px;
+  padding: 7px 9px;
   border-radius: 8px;
   background: rgba(22, 32, 51, 0.88);
   color: #fff;
@@ -126,9 +126,9 @@ h1 {
 .match {
   position: relative;
   display: grid;
-  gap: 8px;
-  min-height: 126px;
-  padding: 10px;
+  gap: 6px;
+  min-height: 94px;
+  padding: 8px;
   border: 1px solid rgba(22, 32, 51, 0.1);
   border-radius: 8px;
   background: var(--panel);
@@ -136,12 +136,12 @@ h1 {
 }
 
 .match.compact {
-  min-height: 118px;
+  min-height: 90px;
 }
 
 .match.final {
   align-self: center;
-  min-height: 170px;
+  min-height: 128px;
   border: 2px solid rgba(215, 161, 58, 0.9);
   background: linear-gradient(180deg, #fffaf0, #ffffff);
 }
@@ -173,7 +173,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  min-height: 20px;
+  min-height: 16px;
 }
 
 .match-label {
@@ -190,16 +190,16 @@ h1 {
 
 .team-list {
   display: grid;
-  gap: 6px;
+  gap: 5px;
 }
 
 .team {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) 38px;
+  grid-template-columns: 30px minmax(0, 1fr) 34px;
   align-items: center;
-  gap: 8px;
-  min-height: 40px;
-  padding: 5px 6px;
+  gap: 6px;
+  min-height: 34px;
+  padding: 4px 5px;
   border: 1px solid rgba(100, 112, 132, 0.18);
   border-radius: 7px;
   background: var(--panel-soft);
@@ -214,8 +214,8 @@ h1 {
 .flag {
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   border-radius: 6px;
   background: #fff;
   border: 1px dashed rgba(100, 112, 132, 0.45);
@@ -239,7 +239,7 @@ h1 {
 }
 
 .team-name {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
   display: -webkit-box;
   line-height: 1.12;
@@ -249,14 +249,14 @@ h1 {
 
 .team-owner {
   margin-top: 2px;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
 }
 
 .score {
   display: grid;
   place-items: center;
-  min-height: 30px;
+  min-height: 26px;
   border-radius: 6px;
   background: #fff;
   color: var(--score);
@@ -274,8 +274,8 @@ h1 {
 .center {
   display: grid;
   align-content: center;
-  min-height: 760px;
-  gap: 14px;
+  min-height: 820px;
+  gap: 12px;
 }
 
 .champion {
