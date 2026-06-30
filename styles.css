@@ -94,7 +94,7 @@ h1 {
 
 .round {
   display: grid;
-  align-content: start;
+  align-content: centre;
   min-height: 700px;
   gap: 36px;
 }
