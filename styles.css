@@ -99,6 +99,42 @@ h1 {
   gap: 12px;
 }
 
+#left-r32 {
+  padding-top: 0;
+}
+
+#left-r16 {
+  padding-top: 40px;
+}
+
+#left-qf {
+  padding-top: 100px;
+}
+
+#left-sf {
+  padding-top: 160px;
+}
+
+#final {
+  padding-top: 220px;
+}
+
+#right-sf {
+  padding-top: 160px;
+}
+
+#right-qf {
+  padding-top: 100px;
+}
+
+#right-r16 {
+  padding-top: 40px;
+}
+
+#right-r32 {
+  padding-top: 0;
+}
+
 .round-title {
   position: sticky;
   top: 0;
