@@ -96,7 +96,7 @@ h1 {
   display: grid;
   align-content: start;
   min-height: 820px;
-  gap: 60px;
+  gap: 12px;
 }
 
 .round-title {
