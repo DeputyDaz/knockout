@@ -8,8 +8,8 @@ const bracketColumns = [
     subtitle: "Left half",
     matches: [
       match(74, "Round of 32", "29 Jun, 12:00 AM UK", "Los Angeles", { flag: "https://flagcdn.com/w40/de.png", name: "Germany", owner: "Jackie M", score: "1 (2)" }, { flag: "https://flagcdn.com/w40/py.png", name: "Paraguay", owner: "Katrina T", score: "1 (4)",  winner: true }),
-      match(77, "Round of 32", "29 Jun, 5:00 PM UK", "New York/New Jersey", { flag: "", name: "Winner Group I", owner: placeholderOwner, score: "" }, { flag: "", name: "3rd Group C/D/F/G/H", owner: placeholderOwner, score: "" }),
-      match(73, "Round of 32", "28 Jun, 8:00 PM UK", "Mexico City", { flag: "", name: "Runner-up Group A", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group B", owner: placeholderOwner, score: "" }),
+      match(77, "Round of 32", "29 Jun, 5:00 PM UK", "New York/New Jersey", { flag: "https://flagcdn.com/w40/fr.png", name: "France", owner: "Conor M", score: "" }, { flag: "https://flagcdn.com/w40/se.png", name: "Sweden", owner: "Colette B", score: "" }),
+      match(73, "Round of 32", "28 Jun, 8:00 PM UK", "Mexico City", { flag: "https://flagcdn.com/w40/za.png", name: "South Africa", owner: "Teresa Mc", score: "0" }, { flag: "https://flagcdn.com/w40/ca.png", name: "Canada", owner: "Colette B", score: "1" }, winner: true}),
       match(75, "Round of 32", "29 Jun, 8:00 PM UK", "Boston", { flag: "", name: "Winner Group F", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group C", owner: placeholderOwner, score: "" }),
       match(83, "Round of 32", "3 Jul, 1:00 AM UK", "Mexico City", { flag: "", name: "Runner-up Group K", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group L", owner: placeholderOwner, score: "" }),
       match(84, "Round of 32", "3 Jul, 2:00 AM UK", "New York/New Jersey", { flag: "", name: "Winner Group H", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group J", owner: placeholderOwner, score: "" }),
@@ -23,7 +23,7 @@ const bracketColumns = [
     title: "Round of 16",
     subtitle: "8 matches",
     matches: [
-      match(90, "Round of 16", "5 Jul, 12:00 AM UK", "Houston", { flag: "", name: "Winner Match 74", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 77", owner: placeholderOwner, score: "" }),
+      match(90, "Round of 16", "5 Jul, 12:00 AM UK", "Houston", { flag: "https://flagcdn.com/w40/py.png", name: "Paraguay", owner: "Katrina T", score: ""}, { flag: "", name: "Winner Match 77", owner: placeholderOwner, score: "" }),
       match(89, "Round of 16", "4 Jul, 7:00 PM UK", "Philadelphia", { flag: "", name: "Winner Match 73", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 75", owner: placeholderOwner, score: "" }),
       match(93, "Round of 16", "6 Jul, 8:00 PM UK", "Arlington", { flag: "", name: "Winner Match 83", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 84", owner: placeholderOwner, score: "" }),
       match(94, "Round of 16", "7 Jul, 1:00 AM UK", "Seattle", { flag: "", name: "Winner Match 81", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 82", owner: placeholderOwner, score: "" })
