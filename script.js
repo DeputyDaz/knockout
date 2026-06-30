@@ -95,8 +95,8 @@ const bracketColumns = [
     title: "Round of 32",
     subtitle: "Right half",
     matches: [
-      match(76, "Round of 32", "30 Jun, 1:00 AM UK", "Monterrey", { flag: "https://flagcdn.com/w40/br.png", name: "Brazil", owner: "Darren H, score: "2", winner: true }, { flag: "https://flagcdn.com/w40/jp.png", name: "Japan", owner: "Charlene F", score: "1" }),
-      match(78, "Round of 32", "30 Jun, 12:00 AM UK", "Dallas", { flag: "https://flagcdn.com/w40/ci.png", name: "Ivory Coast", owner: "Nicola S, score: "" }, { flag: "https://flagcdn.com/w40/no.png", name: "Norway", owner: "Mark B", score: "" }),
+      match(76, "Round of 32", "30 Jun, 1:00 AM UK", "Monterrey", { flag: "https://flagcdn.com/w40/br.png", name: "Brazil", owner: "Darren H", score: "2", winner: true }, { flag: "https://flagcdn.com/w40/jp.png", name: "Japan", owner: "Charlene F", score: "1" }),
+      match(78, "Round of 32", "30 Jun, 12:00 AM UK", "Dallas", { flag: "https://flagcdn.com/w40/ci.png", name: "Ivory Coast", owner: "Nicola S", score: "" }, { flag: "https://flagcdn.com/w40/no.png", name: "Norway", owner: "Mark B", score: "" }),
       match(79, "Round of 32", "30 Jun, 8:00 PM UK", "Atlanta", { flag: "https://flagcdn.com/w40/mx.png", name: "Mexico", owner: "Carl R", score: "" }, { flag: "https://flagcdn.com/w40/ec.png", name: "Ecuador", owner: "Jim W", score: "" }),
       match(80, "Round of 32", "1 Jul, 2:00 AM UK", "San Francisco Bay Area", { flag: "https://flagcdn.com/w40/gb-eng.png", name: "England", owner: "Catherine S", score: "" }, { flag: "https://flagcdn.com/w40/cd.png", name: "DR Congo", owner: "Steven L", score: "" }),
       match(86, "Round of 32", "4 Jul, 12:00 AM UK", "Dallas", { flag: "https://flagcdn.com/w40/ar.png", name: "Argentina", owner: "Paul F", score: "" }, { flag: "https://flagcdn.com/w40/cv.png", name: "Cabo Verde", owner: "Chris B", score: "" }),
