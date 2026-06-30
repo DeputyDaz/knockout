@@ -24,7 +24,7 @@ const bracketColumns = [
     subtitle: "8 matches",
     matches: [
       match(90, "Round of 16", "5 Jul, 12:00 AM UK", "Houston", { flag: "https://flagcdn.com/w40/py.png", name: "Paraguay", owner: "Katrina T", score: ""}, { flag: "", name: "Winner Match 77", owner: placeholderOwner, score: "" }),
-      match(89, "Round of 16", "4 Jul, 7:00 PM UK", "Philadelphia", { flag: "", name: "Winner Match 73", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 75", owner: placeholderOwner, score: "" }),
+      match(89, "Round of 16", "4 Jul, 7:00 PM UK", "Philadelphia", { flag: "https://flagcdn.com/w40/ca.png", name: "Canada", owner: "Colette B", score: "" }, { flag: "https://flagcdn.com/w40/ma.png", name: "Morocco", owner: "Terry B", score: "" }),
       match(93, "Round of 16", "6 Jul, 8:00 PM UK", "Arlington", { flag: "", name: "Winner Match 83", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 84", owner: placeholderOwner, score: "" }),
       match(94, "Round of 16", "7 Jul, 1:00 AM UK", "Seattle", { flag: "", name: "Winner Match 81", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 82", owner: placeholderOwner, score: "" })
     ]
@@ -83,7 +83,7 @@ const bracketColumns = [
     title: "Round of 16",
     subtitle: "8 matches",
     matches: [
-      match(91, "Round of 16", "5 Jul, 10:00 PM UK", "New York/New Jersey", { flag: "", name: "Winner Match 76", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 78", owner: placeholderOwner, score: "" }),
+      match(91, "Round of 16", "5 Jul, 10:00 PM UK", "New York/New Jersey", { flag: "https://flagcdn.com/w40/br.png", name: "Brazil", owner: "Darren H", score: "" }, { flag: "", name: "Winner Match 78", owner: placeholderOwner, score: "" }),
       match(92, "Round of 16", "6 Jul, 4:00 AM UK", "Mexico City", { flag: "", name: "Winner Match 79", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 80", owner: placeholderOwner, score: "" }),
       match(95, "Round of 16", "7 Jul, 5:00 PM UK", "Atlanta", { flag: "", name: "Winner Match 86", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 88", owner: placeholderOwner, score: "" }),
       match(96, "Round of 16", "7 Jul, 9:00 PM UK", "Vancouver", { flag: "", name: "Winner Match 85", owner: placeholderOwner, score: "" }, { flag: "", name: "Winner Match 87", owner: placeholderOwner, score: "" })
