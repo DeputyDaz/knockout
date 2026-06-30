@@ -1,4 +1,4 @@
-const placeholderOwner = "Sweep name";
+const placeholderOwner = "";
 
 const bracketColumns = [
   {
@@ -7,7 +7,7 @@ const bracketColumns = [
     title: "Round of 32",
     subtitle: "Left half",
     matches: [
-      match(74, "Round of 32", "29 Jun, 12:00 AM UK", "Los Angeles", { flag: "https://flagcdn.com/w40/de.png", name: "Germany", owner: "Jackie M", score: "1 (2)" }, { flag: "https://flagcdn.com/w40/py.png", name: "Paraguay", owner: "Katrina T", score: "1 (4)",  winner: true }),
+      match(74, "Round of 32", "29 Jun, 12:00 AM UK", "Los Angeles", { flag: "https://flagcdn.com/w40/de.png", name: "Germany", owner: "Jackie M", score: "1(2)" }, { flag: "https://flagcdn.com/w40/py.png", name: "Paraguay", owner: "Katrina T", score: "1(4)",  winner: true }),
       match(77, "Round of 32", "29 Jun, 5:00 PM UK", "New York/New Jersey", { flag: "https://flagcdn.com/w40/fr.png", name: "France", owner: "Conor M", score: "" }, { flag: "https://flagcdn.com/w40/se.png", name: "Sweden", owner: "Colette B", score: "" }),
       match(73, "Round of 32", "28 Jun, 8:00 PM UK", "Mexico City", { flag: "https://flagcdn.com/w40/za.png", name: "South Africa", owner: "Teresa Mc", score: "0" }, { flag: "https://flagcdn.com/w40/ca.png", name: "Canada", owner: "Colette B", score: "1", winner: true }),
       match(75, "Round of 32", "29 Jun, 8:00 PM UK", "Boston", { flag: "", name: "Winner Group F", owner: placeholderOwner, score: "" }, { flag: "", name: "Runner-up Group C", owner: placeholderOwner, score: "" }),
@@ -142,7 +142,6 @@ function renderMatch(item) {
     <article class="match ${item.isFinal ? "final" : "compact"}">
       <div class="match-head">
         <span class="match-label">Match ${item.number} · ${item.round}</span>
-        <span class="match-meta">${item.when}<br>${item.venue}</span>
       </div>
       <div class="team-list">
         ${item.teams.map(renderTeam).join("")}
